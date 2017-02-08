@@ -1,0 +1,25 @@
+{
+	"Title": "BQ24296 registers",
+	"nbits": 8,
+	"registers": [{
+		"descriptions": "REG0",
+		"bits": [{
+			"bitmeans": "inputvoltage",
+			"bitranges": "0-2",
+			"meaings": {
+				"value": ["000", "001", "010", "011", "100", "101", "110", "111"],
+				"description": [
+					"500mA",
+					"1000mA",
+					"1500mA",
+					"2000mA",
+					"2500mA",
+					"3000mA",
+					"3500mA",
+					"4000mA"
+				]
+			}
+		}]
+
+	}]
+}
